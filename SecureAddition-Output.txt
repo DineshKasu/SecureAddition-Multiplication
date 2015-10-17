@@ -1,0 +1,51 @@
+run:
+Howmany numbers do you want to add?
+3
+Please Enter the Number#1:
+12
+Please Enter the Number#2:
+34
+Please Enter the Number#3:
+56
+The numbers to add are: 12,34,56
+
+
+Party 0 sends 8 to party 1
+Party 0 sends 9 to party 2
+Party 0 keeps -5 as its own share
+
+
+Party 1 sends 10 to party 0
+Party 1 sends 33 to party 2
+Party 1 keeps -9 as its own share
+
+
+Party 2 sends 11 to party 0
+Party 2 sends 1 to party 1
+Party 2 keeps 44 as its own share
+
+
+Party 0 has shares [-5,10,11]
+Party 1 has shares [8,-9,1]
+Party 2 has shares [9,33,44]
+
+
+The partial sum for Party 0: 16
+The partial sum for Party 1: 0
+The partial sum for Party 2: 86
+
+
+Party 0 sends 16 to party 1
+Party 0 sends 16 to party 2
+
+
+Party 1 sends 0 to party 0
+Party 1 sends 0 to party 2
+
+
+Party 2 sends 86 to party 0
+Party 2 sends 86 to party 1
+
+
+The Sum is 102
+BUILD SUCCESSFUL (total time: 4 seconds)

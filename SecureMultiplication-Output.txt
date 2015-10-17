@@ -1,0 +1,37 @@
+run:
+Please Enter the A-Single bit Value? 1 or 0
+1
+Please Enter the B-Single bit Value? 1 or 0
+0
+
+
+Party 0 has value 1
+Party 1 has value 0
+
+
+Party 0 sends the random share 1 to party 1
+Party 0 keeps 0 as the corresponding partial share
+Party 1 sends the random share 1 to party 0
+Party 1 keeps 1 as the corresponding partial share
+
+
+a1=0
+a2=1
+b1=1
+b2=1
+(a1 + a2)*(b1 + b2) = (0 + 1)*(1 + 1) =0
+
+
+Party 1 generates four public keys and keeps the corresponding secret key for 3
+Party 0 generates r = 1
+row 0 = (0 + 0)*(1 + 0) +1 = 1
+row 1 = (0 + 0)*(1 + 1) +1 = 1
+row 2 = (0 + 1)*(1 + 0) +1 = 0
+row 3 = (0 + 1)*(1 + 1) +1 = 1
+Party 1 decrypts row 3 of the table and gets the value 1
+
+
+Party 0 shares its partial result (1) with Party 1
+Party 1 shares its partial result (1) with Party 0
+AND is 0
+BUILD SUCCESSFUL (total time: 4 seconds)

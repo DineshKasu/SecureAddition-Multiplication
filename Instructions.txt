@@ -1,0 +1,8 @@
+1)Please find the Source Code for SecureAddition and SecureBitMultiplication in the SecureAddition and 
+  SecureBitMultiplication folders.
+2)This code is written in java language and executed in the Net beans IDE.
+3)Please check the below text files for output. 
+     * SecureAddition-Output.txt         
+     * SecureMultiplication-Output           	
+
+
